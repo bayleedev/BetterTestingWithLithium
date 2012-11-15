@@ -2,7 +2,7 @@
 
 namespace app\tests\cases\controllers;
 
-use app\extensions\test\ControllerUnit;
+use li3_unit\test\ControllerUnit;
 
 class UsersControllerTest extends ControllerUnit {
 

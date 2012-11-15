@@ -2,7 +2,7 @@
 
 namespace app\tests\cases\models;
 
-use \app\extensions\test\ModelUnit;
+use li3_unit\test\ModelUnit;
 
 class UsersTest extends ModelUnit {
 

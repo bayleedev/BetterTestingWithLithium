@@ -2,7 +2,7 @@
 
 namespace app\tests\cases\extensions\helper;
 
-use app\extensions\test\HelperUnit;
+use li3_unit\test\HelperUnit;
 
 class ProseTest extends HelperUnit {
 
