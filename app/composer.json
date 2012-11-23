@@ -1,0 +1,6 @@
+{
+	"require":{
+        "composer/installers": "*",
+		"blainesch/li3_unit": ">=1.0.0"
+	}
+}
