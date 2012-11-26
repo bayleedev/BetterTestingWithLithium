@@ -6,16 +6,16 @@ use li3_unit\test\ModelUnit;
 
 class UsersTest extends ModelUnit {
 
-	public static $model = 'app\\models\\Users';
+	public $model = 'app\\models\\Users';
 
-	public static $defaultData = array(
+	public $defaultData = array(
 		'id' => '10',
 		'fname' => 'Blaine',
 		'lname' => 'Smith',
 	);
 
 	public function testName() {
-		$user = self::create(array(
+		$user = $this->create(array(
 			'fname' => 'Blaine',
 			'lname' => 'Schmeisser',
 		));

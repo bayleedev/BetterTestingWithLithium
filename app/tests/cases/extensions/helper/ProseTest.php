@@ -9,7 +9,7 @@ class ProseTest extends HelperUnit {
 	public $prose;
 
 	public function setUp() {
-		$this->prose = self::create('Prose');
+		$this->prose = $this->create('Prose');
 	}
 
 	public function testFourEightStarStatement() {

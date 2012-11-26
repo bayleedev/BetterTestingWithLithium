@@ -6,10 +6,10 @@ use li3_unit\test\ControllerUnit;
 
 class UsersControllerTest extends ControllerUnit {
 
-	protected static $controller = 'app\\controllers\\UsersController';
+	public $controller = 'app\\controllers\\UsersController';
 
 	public function testSomething() {
-		$data = self::call('profile', array(
+		$data = $this->call('profile', array(
 			'params' => array(
 				'name' => 'Blaine',
 			)
